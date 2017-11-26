@@ -720,7 +720,7 @@ p {
 }
 
 #Home {
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 #picture {
@@ -734,7 +734,7 @@ p {
 }
 </style><meta name="author" content="James">
   </head>
-  <body> 
+  <body>
     <meta name="description" content="VPark">
     <meta name="generator" content="BlueGriffon wysiwyg editor">
     <div id="doc3" class="yui-t1">
@@ -744,11 +744,11 @@ p {
           border="0">
           <tbody>
             <tr id="table">
-                           <td><button id="homeb" name="home" value="home" onclick="window.location.href='../villiers-p/index'">Home</button></td>
-              <td><button id="mathsb" name="Maths" value="Maths" onclick="window.location.href='../villiers-p/maths'">Maths</button></td>
-              <td><button id="physicsb" name="Physics" value="Physics" onclick="window.location.href='../villiers-p/physics'">Physics</button></td>
-              <td><button id="geographyb" name="Geography" value="Geography" onclick="window.location.href='../villiers-p/geography'">Geography</button></td>
-              <td><button id="extrab" name="extra" value="extra" onclick="window.location.href='../villiers-p/extra'">Extra
+              <td><button id="homeb" name="home" value="home" onclick="window.location.href='../Villiers-p/index.html'">Home</button></td>
+              <td><button id="mathsb" name="Maths" value="Maths" onclick="window.location.href='../Villiers-p/maths.html'">Maths</button></td>
+              <td><button id="physicsb" name="Physics" value="Physics" onclick="window.location.href='../Villiers-p/physics.html'">Physics</button></td>
+              <td><button id="geographyb" name="Geography" value="Geography" onclick="window.location.href='../Villiers-p/geography.html'">Geography</button></td>
+              <td><button id="extrab" name="extra" value="extra" onclick="window.location.href='../Villiers-p/extra.html'">Extra
                   Curricular</button></td>
               <td><canvas id="canvas" width="80" height="80" style="background-color:#333"></canvas>
                 <script>
@@ -860,7 +860,7 @@ function drawHand(ctx, pos, length, width) {
         <div id="yui-main">
           <div class="yui-b">
             <div class="yui-g">
-              <p style="height: 250px;"><img id="picture" src="images/Snapchat-1490558963.jpg"
+              <p style="height: 400px; font-size:large;"> <img id="picture" src="images/Snapchat-1490558963.jpg"
 
                   alt="Picture of me" title="Selfie" style="width: 110px; height: 200px;"
 
@@ -894,5 +894,6 @@ function drawHand(ctx, pos, length, width) {
         <br>
       </div>
     </div>
+    
   </body>
 </html>
